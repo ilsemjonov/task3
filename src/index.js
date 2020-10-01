@@ -24,9 +24,7 @@ class App extends Component {
     getResource(proxyUrl + targetUrl)
       .then((body) => {
         const { categories } = body;
-        console.log(categories)
         this.setState({
-          isLoaded: true,
           items: categories
         });
       })
