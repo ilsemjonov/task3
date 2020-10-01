@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
-
-
-
 import Category from "./category";
-
-
-
-
 
 class App extends Component {
   constructor() {
